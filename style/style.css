@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Azeret Mono;
+}
+
+header{
+    width: 80%;
+    margin: auto;
+    padding: 2em;
+}
+
+/* Btn primary */
+
+.primary-btn{
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 0.8em 1em;
+    background-color: white;
+    cursor: pointer;
+}
+
+.primary-btn:hover{
+    background-color: darkgrey;
+}
+
+/* NAV BAR DESIGN */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primary-btn > a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
